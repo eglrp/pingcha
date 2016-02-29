@@ -105,6 +105,8 @@ public:
 	}
 };
 
+/* Copyright by zyt 2016.2 | All rights reserved */
+
 class angle
 {
 public:
@@ -234,6 +236,7 @@ void calcuDelta_L(Matrix & D_L, Matrix & QLL, double delta0);
 /* 计算极大值、极小值，极值方向 */
 void calcuE_F_faiE_faiF(int i,const double & delta0, const Matrix & QXX, double & faiE, double & faiF, double & E, double & F);
 
+/* Copyright by zyt 2016.2 | All rights reserved */
 int main()
 {
 	int P1, P2, the3;
@@ -424,6 +427,7 @@ int main()
     return 0;
 }
 
+/* Copyright by zyt 2016.2 | All rights reserved */
 /************************函数定义*************************/
 void readdata(string filename, int& start1, int & start2, int & the3, vector<int>& known_point, int all_point_num ,int known_point_num)
 {
